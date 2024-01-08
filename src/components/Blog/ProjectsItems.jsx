@@ -8,7 +8,7 @@ const ProjectsItems = () => {
   return (
     <>
       {projects.map(project => (
-        <div key={project.id} className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400  rounded-xl group hover:bg-gradient-to-b from-[#29cbdd] to-[#6482e0]'>
+        <div key={project.id} className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400  rounded-xl group hover:bg-gradient-to-b from-[#29cbdd] to-[#6482e0] duration-500'>
           <Image className='object-cover rounded-xl group-hover:opacity-10'
             src={`/assets/images/Projects-Images/${project.image}.jpg`}
             alt='project-image'
