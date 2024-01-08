@@ -95,13 +95,13 @@ export const projectsDetails = [
     describtion: 'I built this application in Next JS and is hosted on Firebase This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling moviedata from an the IMDB movie API and displaying different categories It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app wide state management'
   },
   {
-    id: 4,
-    title: 'Filmpier',
-    image: 'filmpier',
-    url: '/Filmpier',
-    codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/Filmpier',
-    liveDemo: 'https://todos-list-react-js.vercel.app/',
-    describtion: 'I built this application in Next JS and is hosted on Firebase This app features user authentication with firebase as well as the firestore cloud storage database. This application is pulling moviedata from an the IMDB movie API and displaying different categories It features horizontal sliding and a featured selection. The useContext hook is also being implemented for app wide state management'
+    id: 5,
+    title: 'Weather-App',
+    image: 'weather',
+    url: '/Weather',
+    codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/Weather-App',
+    liveDemo: 'https://weather-app-roan-psi.vercel.app/',
+    describtion: 'I built this application in Next JS and is hosted on Vercel This app features you can know the weather by enter you city in the search input field in Arabic Or English '
   }
 ]
 
