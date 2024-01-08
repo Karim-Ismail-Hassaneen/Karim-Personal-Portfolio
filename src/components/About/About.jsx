@@ -2,8 +2,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
-import PersonalImage from '../../../public/assets/images/personal-image.png'
+import PersonalImage from '../../../public/assets/images/contact.jpg'
 
 const About = () => {
   return (
@@ -27,7 +26,7 @@ const About = () => {
             Check out some of my latest projects.
           </p>
         </Link>
-        <a className='py-2 text-gray-600 underline cursor-pointer' href='/cv.pdf' download={true}>
+        <a className='py-2 text-gray-600 underline cursor-pointer' href='/Karim I.Hassaneen(Dev Resume).pdf' download={true}>
         Download CV!
         </a>
       </div>
