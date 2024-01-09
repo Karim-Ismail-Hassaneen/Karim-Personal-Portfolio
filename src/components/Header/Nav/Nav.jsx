@@ -7,7 +7,7 @@ const Nav = () => {
   const links = navLinks
   return (
     <>
-      <ul className='hidden md:flex gap-4 text-center '>
+      <ul className='hidden md:flex gap-2 text-center '>
         {links.map(link => (
           <Link key={link.id} href={link.url}>
             <Image src={`/assets/icons/${link.image}.svg`} alt={link.title} width={25} height={25} className='text-slate-500' />

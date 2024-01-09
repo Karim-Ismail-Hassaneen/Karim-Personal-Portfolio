@@ -52,7 +52,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    url: 'https://mail.google.com/karimismailhassaneen',
+    url: 'karimismailhassaneen@gmail.com',
     image: 'gmail',
     title: 'Gmail'
   }

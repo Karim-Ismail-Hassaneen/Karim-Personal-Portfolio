@@ -43,7 +43,7 @@ const Header = () => {
               <p className='font-semibold py-3'>let's build Something Together</p>
             </div>
 
-            <div className='mb-[160px]'>
+            <div className='mb-[100px]'>
               <ul>
                 {items.map(item => (
                   <Link key={item.id} href={item.url}>
@@ -55,12 +55,12 @@ const Header = () => {
                 ))}
               </ul>
             </div>
-            <div className='pb-4'>
+            <div className='pb-2'>
               <Link href='/contact'>
                 <p className='uppercase tracking-widest bg-gradient-to-b from-[#29cbdd] to-[#6482e0] text-transparent bg-clip-text'>Let's Contact </p>
               </Link>
             </div>
-            <ul className='flex gap-4 text-center '>
+            <ul className='flex gap-2 text-center '>
               {links.map(link => (
                 <Link key={link.id} href={link.url}>
                   <Image src={`/assets/icons/${link.image}.svg`} alt={link.title} width={25} height={25} className='text-slate-500' />
