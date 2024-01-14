@@ -26,7 +26,7 @@ const About = () => {
             Check out some of my latest projects.
           </p>
         </Link>
-        <a className='py-2 text-gray-600 underline cursor-pointer' href='/Karim I.Hassaneen(Dev Resume).pdf' download={true}>
+        <a className='py-2 text-gray-600 underline cursor-pointer' href='/Karim-Frontend-Developer(CV).pdf' download={true}>
         Download CV!
         </a>
       </div>
