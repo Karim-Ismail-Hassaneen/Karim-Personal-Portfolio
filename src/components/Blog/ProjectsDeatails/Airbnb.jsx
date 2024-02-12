@@ -4,7 +4,7 @@ import React from 'react'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Image from 'next/image'
 
-const TechHeaven = () => {
+const Airbnb = () => {
   return (
     <>
         <div className='w-full'>
@@ -14,11 +14,11 @@ const TechHeaven = () => {
               className='absolute z-1'
               layout='fill'
               objectFit='cover'
-              src={'/assets/images/Projects-Images/e-commerce.jpg'}
+              src={'/assets/images/Projects-Images/airbnb.jpg'}
               alt='/'
             />
             <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-              <h2 className='py-2'>Tech Heaven</h2>
+              <h2 className='py-2'>Airbnb</h2>
             </div>
           </div>
 
@@ -26,11 +26,11 @@ const TechHeaven = () => {
             <div className='col-span-4'>
               <p>Project</p>
               <h2>Overview</h2>
-              <p>I built this application in Next JS with Payload CMS that you can use it to handle and edit every component in your application like SEO, Pages, Content and more.. You can login and pay with stripe and it hosted on vercel</p>
-              <a href='https://github.com/Karim-Ismail-Hassaneen/e-commerce'>
+              <p>I build this web app with next js typescript and tailwind css. You can search any city want and see it on the map.</p>
+              <a href='https://github.com/Karim-Ismail-Hassaneen/Airbnb-Clone'>
               <button className='px-8 py-2 mt-4 mr-8'>Code</button>
               </a>
-              <a href='https://e-commerce-1213a66.payloadcms.app/'>
+              <a href='https://travel-web-app-six.vercel.app/'>
               <button className='px-8 py-2 mt-4'>Demo</button>
               </a>
             </div>
@@ -46,12 +46,6 @@ const TechHeaven = () => {
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Typescript
               </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Vercel
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Payload CMS
-              </p>
             </div>
               </div>
             </div>
@@ -65,4 +59,4 @@ const TechHeaven = () => {
   )
 }
 
-export default TechHeaven
+export default Airbnb

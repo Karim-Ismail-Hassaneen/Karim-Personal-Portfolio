@@ -16,7 +16,7 @@ const About = () => {
         <p className='py-2 text-gray-600'>
         Hello, and Welcome to my Personal Portfolio, My name is Karim. A Front-End Developer based in Cairo, Egypt, it's been 7 monthes since I Started to learn code!.
             I Started With programming fundamentals using Python, I wrote my first line of code "Hello-World!" and build some small programs with python, after that i wonderd how websites are made. I went to google and searched about
-            how to build a website. in this year2023 I started learning HTML & CSS and make some minor edites on a small websites. What I thought was just a few small edites turned into a love of Programming.
+            how to build a website. in 2023 I started learning HTML & CSS and make some minor edites on a small websites. What I thought was just a few small edites turned into a love of Programming.
         </p>
         <p className='py-2 text-gray-600'>
         Fascinated with Programming I was quickly drawn to learn more. I started learning javascript, React and was even more enthused with making websites interactive
@@ -26,7 +26,7 @@ const About = () => {
             Check out some of my latest projects.
           </p>
         </Link>
-        <a className='py-2 text-gray-600 underline cursor-pointer' href='/Karim-Frontend-Developer(CV).pdf' download={true}>
+        <a className='py-2 text-gray-600 underline cursor-pointer' href='/Dev Karim Ismail CV.pdf' download={true}>
         Download CV!
         </a>
       </div>

@@ -60,15 +60,6 @@ export const navLinks = [
 
 export const projectsDetails = [
   {
-    id: 1,
-    title: 'Tech Heaven',
-    image: 'e-commerce',
-    url: '/TechHeaven',
-    codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/e-commerce',
-    liveDemo: 'https://youtube-clone-lake-six.vercel.app/',
-    describtion: 'I built this application in Next JS with Payload CMS that you can use it to handle and edit every component in your application like SEO, Pages, Content and more.. You can login and pay with stripe and it hosted on vercel'
-  },
-  {
     id: 2,
     title: 'Youtube-Clone',
     image: 'youtube',
@@ -102,6 +93,24 @@ export const projectsDetails = [
     codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/Weather-App',
     liveDemo: 'https://weather-app-roan-psi.vercel.app/',
     describtion: 'I built this application in Next JS and is hosted on Vercel This app features you can know the weather by enter you city in the search input field in Arabic Or English '
+  },
+  {
+    id: 6,
+    title: 'Airbnb',
+    image: 'airbnb',
+    url: '/Airbnb',
+    codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/Airbnb-Clone',
+    liveDemo: 'https://travel-web-app-six.vercel.app/',
+    describtion: 'I build this web app with next js typescript and tailwind css. You can search any city want and see it on the map '
+  },
+  {
+    id: 7,
+    title: 'Inventory Management System',
+    image: 'product',
+    url: '/Inventory',
+    codeUrl: 'https://github.com/Karim-Ismail-Hassaneen/Airbnb-Clone',
+    liveDemo: 'https://travel-web-app-six.vercel.app/',
+    describtion: 'I build this web app with next js typescript and tailwind css. You can search any city want and see it on the map '
   }
 ]
 
